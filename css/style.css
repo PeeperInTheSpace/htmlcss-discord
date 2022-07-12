@@ -137,7 +137,6 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #f6f6f6;
-
 }
 
 .textboxalt {
@@ -157,7 +156,7 @@ header {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
     font-size: 30px;
-
+    width: 1300px;
 }
 
 .texttop > h1 {
@@ -196,6 +195,8 @@ footer {
     font-weight: 700;
     font-size: 50px;
     color: #7289da;
+    line-height: 40px;
+    padding-bottom: 30px;
 }
 
 .footercolumn > h2 {
@@ -215,8 +216,23 @@ footer {
 
 .flag {
     width: 50px;
+    padding-bottom: 30px;
 }
 
 .social {
-    width: 250px;
+    width: 30px;
+    padding: 20px 10px;
+    fill: white;
 }
+
+.wave {
+    fill: #f6f6f6;
+    display: block;
+}
+
+.wavebottom {
+    fill: #f6f6f6;
+    display: block;
+    transform: rotate(180deg)
+}
+
