@@ -11,7 +11,7 @@ nav {
     padding: 20px;
 }
 
-#logo {
+.logo {
     color: white;
     align-self:flex-start;
 }
@@ -267,7 +267,7 @@ footer {
 .bottomline {
  border-color: #465379;
  height: 2px;
- width: 1780px;
+ width: 1800px;
 
 }
 
